@@ -1,0 +1,195 @@
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80%;
+}
+.cont {
+   flex-direction: column;
+    justify-content: center;
+}
+.registerContainer{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: darkgrey;
+}
+
+
+.selectContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+
+}
+
+.minilogo{
+    padding: 10px 0 5px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.minilogo > img{
+    width: 10em;
+}
+.farmer{
+    position: relative;
+    margin-right: 5em;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#Info{
+    width: 250px;
+    height: 150px;
+    position: sticky;
+     flex-direction: column;
+    background: white;
+     resize: none;
+     border:transparent;
+     text-align: center;
+     vertical-align: center;
+     horiz-align: center;
+     font-size: 2em;
+     padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+
+.conatiner{
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+    margin-left: 50px;
+
+}
+.costam{
+    flex-direction: column;
+}
+
+.costam{
+    flex-direction: column;
+    float: left;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.costam2 {
+    float: right;
+    position: relative;
+    left:400px;
+    bottom:20px;
+    padding: 10px;
+    width: 80%;
+    height: 100%;
+    background-color: #f1f1f1;
+    border-radius: 2em;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #dddddd;
+    outline: none;
+}
+
+
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.n{display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 20%;
+    background: darkgrey;
+
+}
+
+@media only screen and (max-device-width: 992px) {
+    body {
+        font-size: 48px;
+    }
+
+    .registerContainer{
+        flex-direction: column;
+    }
+
+    .selectContainer{
+        flex-direction: column;
+    }
+
+    .selectContainer > .farmer{
+        margin-right: 0em;
+        margin-bottom: 5em;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+
+
+    .container {
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .logo > img {
+        width: 7.5em;
+    }
+}
