@@ -2,22 +2,22 @@
 <head>
     <meta charset="UTF-8">
     <title> Contact</title>
-    <link rel="Stylesheet" type="text/css" href="../Public/css/navbar.css" />
+    <link rel="Stylesheet" type="text/css" href="./Public/css/navbar.css" />
     <link rel="Stylesheet" type="text/css" href=".." />
-    <link rel="Stylesheet" href="<%=Url.Content("~/Public/css/news.css")%>" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 </head>
 <body>
-<?php include(dirname(__DIR__).'/Views/Common/navbar.php'); ?>
-<div class="container-fluid">
+<div class="container-fluid" style="background: darkgrey; background-color: darkgrey">
+    <?php include(dirname(__DIR__).'/Views/Common/navbar.php'); ?>
     <div class="row" style="height: 10%"></div>
     <div class="row">
         <div class="col-8 col-md-8 col-lg-8 justify-content-center" style="height: auto ; width: 60%; margin: auto">
-            <img src="../Public/img/contact.png" style="width: 100%; height: auto"  class="left">
+            <img src="./Public/img/contact.png" style="width: 100%; height: auto"  class="left">
         </div>
         <div class="col-4 col-md-4 col-lg-4" style="padding-top: 10%;">
             <section class="mb-4">
@@ -70,12 +70,4 @@
                     </div>
                 </div>
 
-            </section>
-        </div>
-
-    </div>
-
-
-</body>
-
-</html>
+   

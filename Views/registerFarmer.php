@@ -11,14 +11,14 @@
 </head>
 <nav class="n">
     <div class="col-12 col-md-12 justify-content-center align-items-center">
-        <img class="minilogo" src="../Public/img/pear.png"  alt="minilogo" >
+        <img class="minilogo" src="./Public/img/pear.png"  alt="minilogo" >
     </div>
 </nav>
 <body>
 <div class="container-fluid">
     <div class="row" id="row80" >
         <div class="col-2 col-md-6">
-            <img class="corp" src="../Public/img/farm.png"  alt="farmer">
+            <img class="corp" src="./Public/img/farm.png"  alt="farmer">
         </div>
         <div class="col-10 col-md-6  form"  >
             <form id="form">

@@ -1,13 +1,6 @@
 <?php
+spl_autoload_register(function($className){
+    require_once 'libs/'. $className .'.php';
+});
 
-require_once( 'Routes.php' );
-
-function __autoload($class_name) {
-    if(file_exists('classes/'.$class_name.'.php')) {
-        require_once 'classes/' . $class_name . '.php';
-    } else if(file_exists('Controllers/'.$class_name.'.php')){
-        require_once 'Controllers/' . $class_name . '.php';
-        }else if(file_exists('Public/css/'.$class_name.'.css')){
-        require_once 'Publlic/css/' . $class_name . '.php';
-    }
-}
+$app = new Bootstrap();
