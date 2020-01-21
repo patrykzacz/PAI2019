@@ -6,6 +6,7 @@ class User {
     private $password;
     private $name;
     private $surname;
+<<<<<<< HEAD
 
 
     public function setEmail($email): void
@@ -45,6 +46,21 @@ class User {
 
     public function setId(int $id): void
     {
+=======
+    private $role = ['ROLE_USER'];
+
+    public function __construct(
+        string $email,
+        string $password,
+        string $name,
+        string $surname,
+        int $id = null
+    ) {
+        $this->email = $email;
+        $this->password = $password;
+        $this->name = $name;
+        $this->surname = $surname;
+>>>>>>> origin/master
         $this->id = $id;
     }
 
