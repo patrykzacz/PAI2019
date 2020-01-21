@@ -1,7 +1,8 @@
 <?php
-define('registerchoose', registerchoose);
+
 
 class RegisterChoose extends AppController {
+    protected $tmp = "registerchoose";
     public function __construct()
     {
         parent::__construct();
@@ -9,6 +10,7 @@ class RegisterChoose extends AppController {
     }
 
     public function run(){
-        $this->view->render(registerchoose);
+        $this->view->render($this->tmp);
     }
+
 }

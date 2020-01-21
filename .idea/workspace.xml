@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -25,6 +26,7 @@
   </component>
   <component name="ProjectId" id="1WAt5wiS51sxZ9vUcepWcH7jbX7" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -32,8 +34,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projektPai\Views\account" />
+      <recent name="C:\xampp\htdocs\projektPai\Views" />
+      <recent name="C:\xampp\htdocs\projektPai\Views\Common" />
+      <recent name="C:\xampp\htdocs\projektPai\Views\Account" />
       <recent name="C:\Users\Patryk\PhpstormProjects\projektPai2019\classes" />
-      <recent name="C:\Users\Patryk\PhpstormProjects\projektPai2019\Webs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,6 +75,8 @@
       <workItem from="1579458538319" duration="8154000" />
       <workItem from="1579482197351" duration="3792000" />
       <workItem from="1579518729916" duration="13578000" />
+      <workItem from="1579546238770" duration="6487000" />
+      <workItem from="1579562222840" duration="13197000" />
     </task>
     <servers />
   </component>

@@ -42,7 +42,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                        <input type="text" placeholder="Message" name="message" required class="form-control">
+                                        <textarea placeholder="Message" name="message" style="height: 125px; width: 100%; resize: none" required class="form-control"></textarea>
                                 </div>
                             </div>
                         </form>

@@ -1,6 +1,7 @@
 <?php
-define('login', login);
+
 class Login extends AppController {
+    protected $tmp = "login";
     public function __construct()
     {
         parent::__construct();
@@ -8,7 +9,7 @@ class Login extends AppController {
     }
 
     public function run(){
-        $this->view->render(login);
+        $this->view->render($this->tmp);
     }
 
 }

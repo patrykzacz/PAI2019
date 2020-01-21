@@ -1,8 +1,8 @@
 <?php
-define('news', news);
-class News extends AppController {
-    protected $tmp = "news";
 
+
+class AccountFarm extends AppController {
+    protected $tmp = "accountFarm/accountFarm";
     public function __construct()
     {
         parent::__construct();

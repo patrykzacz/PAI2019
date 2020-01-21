@@ -1,7 +1,8 @@
 <?php
 
-define('logout', logout);
+
 class Logout extends AppController {
+    protected $tmp = "logout";
     public function __construct()
     {
         parent::__construct();
@@ -9,7 +10,7 @@ class Logout extends AppController {
     }
 
     public function run(){
-        $this->view->render(logout);
+        $this->view->render($this->tmp);
     }
 
 }

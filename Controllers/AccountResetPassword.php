@@ -1,8 +1,8 @@
 <?php
-define('news', news);
-class News extends AppController {
-    protected $tmp = "news";
 
+
+class AccountResetPassword extends AppController {
+    protected $tmp = "accountFarm/AccountResetPassword";
     public function __construct()
     {
         parent::__construct();

@@ -11,15 +11,19 @@
     </div>
 </header>
 <div class="registerContainer">
-
     <div class="selectContainer">
-        <div class="farmer">
-            <img src="./Public/img/farm.png"  alt="farmer">
-        </div>
-        <div class="corpo">
 
-            <img src="./Public/img/corpo.png"  alt="corpo">
-        </div>
+        <a href="RegisterFarmer" >
+            <div class="farmer">
+                <img src="./Public/img/farm.png" alt="farmer">
+            </div>
+        </a>
+        <a href="RegisterCorpo">
+            <div class="corpo">
+
+                <img src="./Public/img/corpo.png" alt="corpo">
+            </div>
+        </a>
     </div>
 </div>
 

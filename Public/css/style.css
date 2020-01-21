@@ -17,8 +17,10 @@ body {
     background: darkgrey;
 }
 
-
-
+#register{
+    position: relative;
+    top: 50px;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -120,6 +122,9 @@ button {
         font-size: 2em;
     }
 
+    #register{
+        width: 100px;
+    }
     .selectContainer > .farmer{
         margin-right: 0em;
         margin-bottom: 5em;
@@ -135,7 +140,9 @@ button {
         font-size: 10px;
     }
 
-
+    #register{
+        width: 300px;
+    }
     .container {
         flex-direction: column;
     }

@@ -1,6 +1,7 @@
 <?php
-define('registerfarm', registerfarm);
+
 class RegisterFarmer extends AppController {
+    protected $tmp = "registerfarmer";
     public function __construct()
     {
         parent::__construct();
@@ -8,6 +9,7 @@ class RegisterFarmer extends AppController {
     }
 
     public function run(){
-        $this->view->render(registerfarm);
+        $this->view->render($this->tmp);
     }
+
 }

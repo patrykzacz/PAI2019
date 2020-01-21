@@ -2,6 +2,7 @@
 define('contact', contact);
 
 class Contact extends AppController {
+    protected $tmp = "contact";
         public function __construct()
         {
 
@@ -9,8 +10,9 @@ class Contact extends AppController {
 
         }
 
-        public function run(){
-            $this->view->render(contact);
-        }
+    public function run(){
+        $this->view->render($this->tmp);
+    }
+
 
 }
