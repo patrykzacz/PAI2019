@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da8fe8d6-8361-4009-85a0-a66a4471dbef" name="Default Changelist" comment="" />
+    <list default="true" id="da8fe8d6-8361-4009-85a0-a66a4471dbef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/RegisterFarmer_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AccountDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountDelete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AccountFarm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountFarm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AccountOffers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountOffers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AccountResetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountResetPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AppController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Offers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RegisterChoose.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RegisterChoose.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RegisterCorpo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RegisterCorpo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RegisterFarmer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RegisterFarmer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/registerFarmer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/registerFarmer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/AppController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/Bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Login_model.php" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +58,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WAt5wiS51sxZ9vUcepWcH7jbX7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projektPai" />
+      <recent name="C:\xampp\htdocs\projektPai\libs" />
+      <recent name="C:\xampp\htdocs\projektPai\Repository" />
       <recent name="C:\xampp\htdocs\projektPai\Views\account" />
       <recent name="C:\xampp\htdocs\projektPai\Views" />
-      <recent name="C:\xampp\htdocs\projektPai\Views\Common" />
-      <recent name="C:\xampp\htdocs\projektPai\Views\Account" />
-      <recent name="C:\Users\Patryk\PhpstormProjects\projektPai2019\classes" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="$_POST[''];" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -77,10 +119,39 @@
       <workItem from="1579518729916" duration="13578000" />
       <workItem from="1579546238770" duration="6487000" />
       <workItem from="1579562222840" duration="13197000" />
+      <workItem from="1579584641262" duration="21000" />
+      <workItem from="1579602748399" duration="293000" />
+      <workItem from="1579603205066" duration="20742000" />
     </task>
+    <task id="LOCAL-00001" summary="-update Views-">
+      <created>1579578075879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579578075879</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="-update Views-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-update Views-" />
   </component>
 </project>

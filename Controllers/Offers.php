@@ -1,6 +1,6 @@
 <?php
-define('offers', offers);
-class Offers extends AppController {
+
+class Offers extends Controller {
     protected $tmp = "offers";
     public function __construct()
     {

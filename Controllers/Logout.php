@@ -1,7 +1,7 @@
 <?php
 
 
-class Logout extends AppController {
+class Logout extends Controller {
     protected $tmp = "logout";
     public function __construct()
     {

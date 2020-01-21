@@ -1,7 +1,7 @@
 <?php
 
 
-class AccountResetPassword extends AppController {
+class AccountResetPassword extends Controller {
     protected $tmp = "accountFarm/AccountResetPassword";
     public function __construct()
     {
