@@ -21,17 +21,17 @@
         <div class="col-2 col-md-6">
             <img class="corp" src="./Public/img/farm.png" alt="farmer">
         </div>
-        <div class="col-10 col-md-6  form">
-            <form id="form">
-                <input type="text" placeholder="Enter Name" name="Name" required><br>
-                <input type="text" placeholder="Enter Surame" name="Surname" required><br>
+        <div class="col-10 col-md-6 ">
+            <form class="form-signup" id="form" action="RegisterFarmer/register" method="post">
+                <input type="text" placeholder="Enter Name" name="name" required><br>
+                <input type="text" placeholder="Enter Surame" name="surname" required><br>
                 <input type="text" placeholder="Enter Email" name="email" required><br>
                 <input type="password" placeholder="Enter Password" name="psw" required><br>
                 <input type="text" placeholder="Enter City" name="city" required><br>
-                <input type="text" placeholder="Enter Street" name="Street" required>
-                <input type="text" placeholder="Enter House Number" name="HNumber" required>
+                <input type="text" placeholder="Enter Street" name="street" required>
+                <input type="text" placeholder="Enter House Number" name="hnumber" required>
                 <input type="text" placeholder="Enter Zip Code" name="zipcode" required>
-                <button type="submit" class="registerbtn">Register</button>
+                <button type="submit" name="submit" >Register</button>
             </form>
         </div>
     </div>

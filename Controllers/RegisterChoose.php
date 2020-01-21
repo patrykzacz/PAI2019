@@ -1,7 +1,7 @@
 <?php
 
 
-class RegisterChoose extends AppController {
+class RegisterChoose extends Controller {
     protected $tmp = "registerchoose";
     public function __construct()
     {

@@ -1,9 +1,9 @@
 <?php
 require_once './models/User.php';
 require_once './Repository/UserRepository.php';
-class Login extends Controller
+class Index extends Controller
 {
-    protected $tmp = "login";
+    protected $tmp = "index";
 
     public function __construct()
     {
@@ -15,13 +15,4 @@ class Login extends Controller
     {
         $this->view->render($this->tmp);
     }
-
-
-    public function login()
-    {
-        $this->model->login();
-    }
-
-
-
 }

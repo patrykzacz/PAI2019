@@ -1,7 +1,7 @@
 <?php
 
 
-class RegisterCorpo extends AppController {
+class RegisterCorpo extends Controller {
     protected $tmp = "registercorpo";
     public function __construct()
     {

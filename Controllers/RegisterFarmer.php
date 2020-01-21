@@ -1,6 +1,6 @@
 <?php
 
-class RegisterFarmer extends AppController {
+class RegisterFarmer extends Controller {
     protected $tmp = "registerfarmer";
     public function __construct()
     {
@@ -9,7 +9,16 @@ class RegisterFarmer extends AppController {
     }
 
     public function run(){
+        require_once './models/RegisterFarmer_model.php';
+        $model= new RegisterFarmer_Model();
         $this->view->render($this->tmp);
+    }
+
+    public function register()
+    {
+        require_once './models/RegisterFarmer_model.php';
+        $model= new RegisterFarmer_Model();
+        $model->register();
     }
 
 }
