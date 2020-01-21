@@ -1,7 +1,7 @@
 <?php
 
 
-class AccountDelete extends AppController {
+class AccountDelete extends Controller {
     protected $tmp = "accountFarm/accountDelete";
     public function __construct()
     {

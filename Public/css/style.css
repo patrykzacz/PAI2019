@@ -29,6 +29,19 @@ form {
     justify-content: center;
 }
 
+.fomularz{
+    padding-left: 1em;
+    margin: 0 4em 2em 4em;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 2px solid #BCE0FD;
+    border-radius: 2em;
+
+    /* font */
+    color: #2699FB;
+    line-height: 2.5em;
+    font-size: 1em;
+}
+
 form > input {
     padding-left: 1em;
     margin: 0 4em 2em 4em;

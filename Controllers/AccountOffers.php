@@ -1,7 +1,7 @@
 <?php
 
 
-class AccountOffers extends AppController {
+class AccountOffers extends Controller {
     protected $tmp = "accountFarm/accountOffers";
     public function __construct()
     {
