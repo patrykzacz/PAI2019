@@ -1,4 +1,10 @@
+<?php
+session_start();
+$_SESSION['asd']= "YELLOW";
+?>
+
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <link rel="Stylesheet" type="text/css" href="./Public/css/style.css" />

@@ -1,4 +1,12 @@
-<html xmlns="http://www.w3.org/1999/html">
+<?php
+session_start();
+if(!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
+    die('You are not logged in!');
+}
+
+?>
+
+<html>
 <head>
     <meta charset="UTF-8">
     <title> Test</title>
@@ -23,7 +31,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content .</p>
-                    <a href="#" class="btn btn-primary">Full Article</a>
                 </div>
             </div>
         </div>
@@ -35,7 +42,6 @@
                     <div class="card-body">
                         <h5 class="card-title">Wzrost cen</h5>
                         <p class="card-text">Truskawki drożeją jak wszystko w tym kraju.</p>
-                        <a href="#" class="btn btn-primary">Full Article</a>
                     </div>
                 </div>
             </div>
@@ -44,8 +50,6 @@
                     <img class="card-img-top" src="./Public/img/onion.png" style="height: 10rem" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Cebula też.</p>
-                        <a href="#" class="btn btn-primary">Full Article</a>
                     </div>
                 </div>
             </div>
@@ -55,7 +59,6 @@
                     <div class="card-body">
                         <h5 class="card-title">A Ja prosze tylko o 3</h5>
                         <p class="card-text">3!</p>
-                        <a href="#" class="btn btn-primary">PanDA 3</a>
                     </div>
                 </div>
             </div>

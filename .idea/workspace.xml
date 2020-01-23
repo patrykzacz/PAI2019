@@ -5,14 +5,23 @@
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Controllers/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Map.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/js/contactForm.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Views/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/accountCorpo/AccountDelete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/accountCorpo/accountFarm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/accountCorpo/accountOffers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/accountCorpo/accountResetPassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/logout.inc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/libs/Controller.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/libs/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Contact_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/RegisterCorpo_model.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/RegisterFarmer_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/AccountDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountDelete.php" afterDir="false" />
@@ -29,7 +38,21 @@
       <change beforePath="$PROJECT_DIR$/Controllers/RegisterCorpo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RegisterCorpo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/RegisterFarmer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RegisterFarmer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/js/buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/js/buttons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Common/accountButtonGruoup.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Common/accountButtonGruoup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Common/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Common/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/accountFarm/AccountDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/accountFarm/AccountDelete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/accountFarm/accountFarm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/accountFarm/accountFarm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/accountFarm/accountOffers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/accountFarm/accountOffers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/accountFarm/accountResetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/accountFarm/accountResetPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/offers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/registerChoose.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/registerChoose.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/registerCorpo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/registerCorpo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/registerFarmer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/registerFarmer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" />
@@ -75,6 +98,28 @@
         <item name="MariaDB - farmerapp@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="farmerapp: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - farmerapp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="farmerapp: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - farmerapp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="farmerapp: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - farmerapp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="farmerapp: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sprawdz: view" type="9532b39d:MariaImplModel$View" />
       </path>
     </expand>
     <select />
@@ -156,7 +201,9 @@
       <workItem from="1579562222840" duration="13197000" />
       <workItem from="1579584641262" duration="21000" />
       <workItem from="1579602748399" duration="293000" />
-      <workItem from="1579603205066" duration="31638000" />
+      <workItem from="1579603205066" duration="41410000" />
+      <workItem from="1579657392913" duration="336000" />
+      <workItem from="1579770339091" duration="4988000" />
     </task>
     <task id="LOCAL-00001" summary="-update Views-">
       <created>1579578075879</created>

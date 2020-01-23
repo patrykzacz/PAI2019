@@ -1,5 +1,6 @@
 <?php
 require_once 'config.php';
+
 class Database
 {
 
@@ -14,12 +15,15 @@ class Database
     }
 
     function connect()
-    {   $db = mysqli_connect($this->HOST . ":" . $this->PORT, $this->DBUSER, $this->DBPASS, $this->DBNAME);
+    {
+        $db = mysqli_connect($this->HOST . ":" . $this->PORT, $this->DBUSER, $this->DBPASS, $this->DBNAME);
         if (!$db) {
             echo mysqli_errno($db) or die();
         }
         return $db;
 
     }
+
+
 }
 

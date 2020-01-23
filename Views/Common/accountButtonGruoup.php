@@ -1,4 +1,5 @@
 <script type="text/javascript" src="./Public/js/buttons.js"></script>
+<script type="text/javascript" src="./Public/js/contactForm.js"></script>
 <div class="col-3 col-md-3 text-center">
     <div class="row" style="height: 10%"></div>
     <div class="row">

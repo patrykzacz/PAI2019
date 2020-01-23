@@ -1,6 +1,5 @@
 <?php
-require_once './models/User.php';
-require_once './Repository/UserRepository.php';
+
 class Login extends Controller
 {
     protected $tmp = "login";
@@ -19,7 +18,8 @@ class Login extends Controller
 
     public function login()
     {
-        $this->model->login();
+        $model = new Login_model();
+        $model->login();
     }
 
 

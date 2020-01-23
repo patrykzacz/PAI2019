@@ -21,4 +21,6 @@ class RegisterFarmer extends Controller {
         $model->register();
     }
 
+
+
 }

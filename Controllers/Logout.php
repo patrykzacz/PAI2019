@@ -13,4 +13,6 @@ class Logout extends Controller {
         $this->view->render($this->tmp);
     }
 
+
+
 }

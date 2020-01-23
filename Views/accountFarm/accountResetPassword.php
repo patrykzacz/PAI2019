@@ -1,4 +1,10 @@
-<html xmlns="http://www.w3.org/1999/html">
+<?php
+session_start();
+if(!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
+    die('You are not logged in!');
+}
+
+?>
 <head>
     <meta charset="UTF-8">
     <title> Offers</title>

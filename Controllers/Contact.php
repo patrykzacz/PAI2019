@@ -15,5 +15,10 @@ class Contact extends Controller {
 
     }
 
+    public function sendMessage(){
+            $model = new Contact_model();
+            $model->sendMessage();
+    }
+
 
 }

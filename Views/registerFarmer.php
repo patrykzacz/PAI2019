@@ -1,3 +1,15 @@
+<?php
+session_start();
+if(!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
+
+}  else {
+    echo ("<script LANGUAGE='JavaScript'>
+    window.alert('You have already an account ');
+    window.location.href='News';
+    </script>");
+
+}
+?>
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
