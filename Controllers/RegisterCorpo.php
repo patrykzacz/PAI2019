@@ -14,11 +14,5 @@ class RegisterCorpo extends Controller {
         $this->view->render($this->tmp);
     }
 
-    public function register()
-    {
-        require_once './models/RegisterCorpo_model.php';
-        $model= new RegisterCorpo_model();
-        $model->register();
-    }
 
 }

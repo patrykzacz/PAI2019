@@ -2,64 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8fe8d6-8361-4009-85a0-a66a4471dbef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Map.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/js/contactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Map.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/accountCorpo/AccountDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/accountCorpo/accountFarm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/accountCorpo/accountOffers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/accountCorpo/accountResetPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/logout.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Contact_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/RegisterCorpo_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/RegisterFarmer_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/AdminView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/js/possible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/emailPossible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Admin_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AccountDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountDelete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AccountFarm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountFarm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AccountOffers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountOffers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AccountResetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountResetPassword.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AppController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/News.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Offers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/RegisterChoose.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RegisterChoose.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/RegisterCorpo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RegisterCorpo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/RegisterFarmer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RegisterFarmer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/js/buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/js/buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Account.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Common/accountButtonGruoup.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Common/accountButtonGruoup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Common/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Common/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/accountFarm/AccountDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/accountFarm/AccountDelete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/accountFarm/accountFarm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/accountFarm/accountFarm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/accountFarm/accountOffers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/accountFarm/accountOffers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/accountFarm/accountResetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/accountFarm/accountResetPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/js/contactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/js/contactForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/news.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/offers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/registerChoose.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/registerChoose.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/registerCorpo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/registerCorpo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/registerFarmer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/registerFarmer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/AppController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/Bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Login_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Login_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Contact_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Contact_model.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,11 +107,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projektPai\Views" />
+      <recent name="C:\xampp\htdocs\projektPai\inc" />
       <recent name="C:\xampp\htdocs\projektPai" />
       <recent name="C:\xampp\htdocs\projektPai\libs" />
       <recent name="C:\xampp\htdocs\projektPai\Repository" />
-      <recent name="C:\xampp\htdocs\projektPai\Views\account" />
-      <recent name="C:\xampp\htdocs\projektPai\Views" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -203,7 +159,7 @@
       <workItem from="1579602748399" duration="293000" />
       <workItem from="1579603205066" duration="41410000" />
       <workItem from="1579657392913" duration="336000" />
-      <workItem from="1579770339091" duration="4988000" />
+      <workItem from="1579770339091" duration="21544000" />
     </task>
     <task id="LOCAL-00001" summary="-update Views-">
       <created>1579578075879</created>

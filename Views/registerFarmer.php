@@ -17,6 +17,7 @@ if(!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./Public/js/possible.js"></script>
     <link rel="Stylesheet" type="text/css" href="./Public/css/register.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -37,13 +38,13 @@ if(!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
             <form class="form-signup" id="form" action="RegisterFarmer/register" method="post">
                 <input type="text" placeholder="Enter Name" name="name" required><br>
                 <input type="text" placeholder="Enter Surame" name="surname" required><br>
-                <input type="text" placeholder="Enter Email" name="email" required><br>
+                <input type="text" placeholder="Enter Email" id="email" name="email" required><br><span id="possiblity"></span>
                 <input type="password" placeholder="Enter Password" name="psw" required><br>
                 <input type="text" placeholder="Enter City" name="city" required><br>
                 <input type="text" placeholder="Enter Street" name="street" required>
                 <input type="text" placeholder="Enter House Number" name="hnumber" required>
                 <input type="text" placeholder="Enter Zip Code" name="zipcode" required>
-                <button type="submit" name="submit" >Register</button>
+                <button type="submit" id="register" name="submit" >Register</button>
             </form>
         </div>
     </div>

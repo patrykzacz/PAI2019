@@ -1,7 +1,5 @@
 <?php
-session_start();
 if(!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
-
 } else {
     echo ("<script LANGUAGE='JavaScript'>
     window.alert('You have already an account ');
@@ -18,6 +16,7 @@ if(!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./Public/js/possible.js"></script>
     <link rel="Stylesheet" type="text/css" href="./Public/css/register.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>RFarmer</title>
@@ -36,7 +35,7 @@ if(!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
         <div class="col-10 col-md-6  form"  >
             <form  id="form" action="RegisterCorpo/register" method="post">
                 <input type="text" placeholder="Enter Company Name" name="name" required><br>
-                <input type="email" placeholder="Enter Email" name="email" required><br>
+                <input type="email" placeholder="Enter Email" id="email" name="email" required><br><span id="possiblity"></span>
                 <input type="password" placeholder="Enter Password" name="psw" required><br>
                 <input type="text" placeholder="Enter City" name="city" required><br>
                 <input type="text" placeholder="Enter Street" name="street" required>
@@ -44,7 +43,7 @@ if(!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
                 <input type="text" placeholder="Enter House Number" name="hnumber" required>
                 <input type="text" placeholder="Enter NIP" name="nip" required>
                 <input type="tel" placeholder="Enter Contact Number" name="number" required>
-                <button type="submit" name="git" >Register</button>
+                <button type="submit" id="register" name="git" >Register</button>
             </form>
         </div>
     </div>

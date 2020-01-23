@@ -50,26 +50,7 @@ if (!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
 
 
 
-    <div class="col-3 col-md-3 col-lg-3">
-        <div class="ext-center" style="background: transparent; padding: 20px ">
-            <ul class="list">
-                <head><h2><b>Sory By</b></h2></head>
-                <li>
-                    <input type="checkbox" name="vehicle1" value="fruits"> Price<br>
-                </li>
-                <li>
-                    <input type="checkbox" name="vehicle1" value="vegetables"> Date<br>
-                </li>
-                <li>
-                    <input type="checkbox" name="vehicle1" value="vegetables"> Name<br>
-                </li>
-                <li>
-                    <input type="checkbox" name="vehicle1" value="vegetables"> Vegetables<br>
-                </li>
-
-
-            </ul>
-        </div>
+    <div class="col-9 col-md-9 col-lg-9">
 
     </div>
 

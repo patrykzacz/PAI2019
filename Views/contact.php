@@ -64,12 +64,12 @@ if (!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
                                               class="form-control"></textarea>
                                 </div>
                             </div>
-
+                            <div class="center-on-small-only">
+                                <button class="btn btn-primary" onclick="validateForm()"> Send</button>
+                            </div>
+                            <span class="status" id="status"  style="color: red"></span>
                         </form>
-                        <div class="center-on-small-only">
-                        <button class="btn btn-primary" onclick="validateForm()"> Send</button>
-                    </div>
-                    <span class="status" id="status"  style="color: red"></span>
+
                     </div>
                     <div class="col-md-3 text-center">
                         <ul class="list-unstyled mb-0">
@@ -89,5 +89,3 @@ if (!isset($_SESSION['email']) and !isset($_SESSION['role'])) {
                         </ul>
                     </div>
                 </div>
-
-   
